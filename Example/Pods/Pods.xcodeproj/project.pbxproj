@@ -21,6 +21,7 @@
 		469858E423ABA8BD00E8A648 /* MBConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469858DB23ABA8BD00E8A648 /* MBConfiguration.swift */; };
 		4B347C6A87F6F8B042F885EBC94518E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4E99554B5189137FE09D3D2658764261 /* Pods-MBVideoPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 516B9D4EF51581F952FC200D69C3A16F /* Pods-MBVideoPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		964D496B2B0877F400103567 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964D496A2B0877F400103567 /* Package.swift */; };
 		ABA36DCBB52A9EF02F6EFB044B3C6FF6 /* Pods-MBVideoPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C425803ECD3C54C40AC3DF7DA2F8DC5E /* Pods-MBVideoPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF37F9B739F0BC3C6B51E2E34A963C8B /* MBVideoPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C23A433ECA7BB5C94065865A84645EA /* MBVideoPlayer-dummy.m */; };
 		DA595F2930FA5085ED241327A984C9B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -69,6 +70,7 @@
 		842331CEA0771733DAD214F09FA3C5A9 /* Pods_MBVideoPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBVideoPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C23A433ECA7BB5C94065865A84645EA /* MBVideoPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBVideoPlayer-dummy.m"; sourceTree = "<group>"; };
 		8FE27569B063D202604CC5B7BA2BF16C /* MBVideoPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBVideoPlayer-umbrella.h"; sourceTree = "<group>"; };
+		964D496A2B0877F400103567 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		9740F7EB59673CE0C09DB12A8F69177C /* Pods-MBVideoPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBVideoPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC3009CC96168B1D5CB62F213E9701BC /* MBVideoPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBVideoPlayer-prefix.pch"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		39CA04C7F875D32DB9147739A099969C /* MBVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				964D496A2B0877F400103567 /* Package.swift */,
 				469858D823ABA8BD00E8A648 /* CMTime+extension.swift */,
 				469858DB23ABA8BD00E8A648 /* MBConfiguration.swift */,
 				469858DA23ABA8BD00E8A648 /* MBTheme.swift */,
@@ -398,6 +401,7 @@
 				469858E423ABA8BD00E8A648 /* MBConfiguration.swift in Sources */,
 				469858E023ABA8BD00E8A648 /* MBVideoPlayerHeaderView.swift in Sources */,
 				469858DF23ABA8BD00E8A648 /* MBVideoPlayerControls.swift in Sources */,
+				964D496B2B0877F400103567 /* Package.swift in Sources */,
 				469858DE23ABA8BD00E8A648 /* VideoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
